@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+#clock {
+  border: 5px dotted black;
+  height: 100px;
+  width: 500px;
+  background: pink;
+  text-align: center;
+  font-size: 80px;
+  position: absolute;
+  left: 500px;
+  top: 300px;
+}
